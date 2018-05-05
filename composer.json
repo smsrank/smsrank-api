@@ -1,0 +1,22 @@
+{
+  "name": "bdtask/smsrank-api",
+  "description": "smsrank API is build for smsrank - Bulk SMS Application For Marketing",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.3",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "bdtask",
+      "email": "bdtask@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0"
+  }
+}
