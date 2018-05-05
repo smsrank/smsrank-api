@@ -1,9 +1,4 @@
 
-[![Latest Stable Version](https://poser.pugx.org/shamim/ultimate-sms-api/v/stable)](https://packagist.org/packages/shamim/ultimate-sms-api?format=flat-square)
-[![License](https://poser.pugx.org/shamim/ultimate-sms-api/license)](https://packagist.org/packages/shamim/ultimate-sms-api?format=flat-square)
-[![GitHub issues](https://img.shields.io/github/issues/akasham67/ultimate-sms-api.svg?style=flat-square)](https://github.com/akasham67/ultimate-sms-api/issues)
-[![GitHub stars](https://img.shields.io/github/stars/akasham67/ultimate-sms-api.svg?style=flat-square)](https://github.com/akasham67/ultimate-sms-api/stargazers)
-
 # smsrank API
 
 smsrank API is build for smsrank - Bulk SMS Application For Marketing
@@ -21,13 +16,13 @@ smsrank - Bulk SMS Application For Markting
 ### Installing
 Via Composer
 ```
-composer require shamim/ultimate-sms-api 
+composer require smsrank/smsrank-api 
 ```
 
 And Via Bash
 
 ```
-git clone https://github.com/bdtaski-github/smsrank-api.git
+git clone https://github.com/smsrank/smsrank-api
 ```
 
 ## Usage
@@ -36,8 +31,8 @@ git clone https://github.com/bdtaski-github/smsrank-api.git
  ### Step 1:
 If install smsrank API using Git Clone then load your smsrank API Class file and Use namespace. 
 ```php
-require_once 'src/Class_Ultimate_SMS_API.php';
-use UltimateSMS\UltimateSMSAPI;
+require_once 'src/Class_Rank_SMS_API.php';
+use RankSMS\RankSMSAPI;
 ```
 If install smsrank API using Composer then Require/Include autoload.php file in the index.php of your project or whatever file you need to use **Ultimate SMS API** classes:. 
 ```php
@@ -52,22 +47,22 @@ $api_key = 'YWRtaW46YWRtaW4ucGFzc3dvcmQ=';
 ### Step 3:
 Change the from number below. It can be a valid phone number or a String
 ```php
-$from = '8801721000000';
+$from = '8801817584639';
 ```
 
 ### Step 4:
 the number we are sending to - Any phone number
 ```php
-$destination = '8801810000000';
+$destination = '8801922296392';
 ```
 You have to must include Country code at beginning of the phone number.  
 
 ### Step 5:
-Replace your Install URL like `https://mywebhost.com/sms/api` with `https://http://smsrank.com/sign-in/sms/api`
+Replace your Install URL like `https://mywebhost.com/sms/api` with `https://smsrank.com/sms/api`
 is mandatory on your install url
 
 ```php
-$url = 'https://http://smsrank.com/sign-in/sms/api';
+$url = 'https://smsrank.com/sms/api
 
 ```
 // SMS Body

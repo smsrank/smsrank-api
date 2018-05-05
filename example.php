@@ -27,10 +27,10 @@ $api_key = 'YWRtaW46YWRtaW4ucGFzc3dvcmQ=';
 
 
 // Step 3: Change the from number below. It can be a valid phone number or a String
-$from = '8801710410490';
+$from = '8801817584639';
 
 // Step 4: the number we are sending to - Any phone number
-$destination = '8801822982803';
+$destination = '8801922296392';
 
 // Step 5: Replace your Install URL like https://mywebhost.com/sms/api with https://ultimatesms.coderpixel.com/demo/
 // <sms/api> is mandatory.
